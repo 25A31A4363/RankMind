@@ -1,4 +1,9 @@
-import { SERPItem } from '../types';
+import {
+  SERPItem,
+  MemoryAugmentedAnalysisResponse,
+  ContextAwareRecommendation,
+  HindsightMemoryItem,
+} from '../types';
 
 export interface RankingProgressionStep {
   date: string;
@@ -2184,5 +2189,127 @@ export function getDomainIntelligenceProfile(domain: string, _query: string): Do
       laterObservedPosition: '#1',
       explanation: 'Historical memory shows structured practical updates were followed by capturing Position #1.',
     },
+  };
+}
+
+export function getFallbackMemoryAnalysis(
+  domain: string,
+  query: string
+): MemoryAugmentedAnalysisResponse {
+  const profile = getDomainIntelligenceProfile(domain, query);
+  const items = getSERPItemsForQuery(query);
+  const currentPos = profile.currentRank || 1;
+
+  const recs: ContextAwareRecommendation[] = [
+    {
+      id: `rec_${domain.replace(/[^a-zA-Z0-9]/g, '_')}_1`,
+      priority: 1,
+      title: profile.hasInteractiveWidget
+        ? 'Deepen Structured Technical Syllabus & Project Matrices'
+        : 'Deploy Interactive Sandbox & Hands-On Practice Utility',
+      category: profile.hasInteractiveWidget ? 'content_depth' : 'interactive_ux',
+      reasoning: `Hindsight historical memory indicates ${profile.relevantMemory.explanation}`,
+      expected_direction_of_improvement: `Improve and stabilize ranking toward #${Math.max(1, currentPos - 2)} with measurable engagement lift`,
+      implementation_steps: [
+        `Embed structured interactive verification components directly into the main curriculum landing view.`,
+        `Add Schema.org Course / HowTo JSON-LD markup to match top competitor search snippets.`,
+        `Commit experiment into the RankMind Action Ledger to monitor empirical ranking changes in the next cycle.`,
+      ],
+      why_am_i_seeing_this: {
+        current_observation: `Target domain ${domain} is currently holding Rank #${currentPos} for query "${query}".`,
+        recalled_memory: `Earlier baseline: ${profile.relevantMemory.previouslyRecorded}. Past optimization: ${profile.relevantMemory.previousOptimization}.`,
+        connection_between_them: profile.relevantMemory.explanation,
+        recommendation: `Deploy high-utility interactive modules rather than generic text expansion.`,
+        observational_caveat: `Past empirical correlation reflects historical observations; indexing latency may vary.`,
+      },
+    },
+    {
+      id: `rec_${domain.replace(/[^a-zA-Z0-9]/g, '_')}_2`,
+      priority: 2,
+      title: 'Structured Schema.org JSON-LD & Rich Video Snippets',
+      category: 'schema_markup',
+      reasoning: 'Search algorithms favor comprehensive structured metadata to display rich snippet cards.',
+      expected_direction_of_improvement: 'Boost click-through rate (CTR) by up to 28% from search result pages.',
+      implementation_steps: [
+        'Generate ItemList and Course structured data.',
+        'Validate markup with Google Rich Results validator.',
+        'Track snippet badge retention across upcoming evaluation cycles.',
+      ],
+      why_am_i_seeing_this: {
+        current_observation: `${domain} currently has ${profile.schemaTypes.length > 0 ? profile.schemaTypes.join(', ') : 'no structured'} schema tags declared.`,
+        recalled_memory: 'Top competing domains consistently hold schema types: Course, VideoObject, Organization.',
+        connection_between_them: 'Rich snippet badges capture dominant eye-level SERP real estate.',
+        recommendation: 'Add standard Schema.org JSON-LD metadata.',
+        observational_caveat: 'Schema appearance in SERP depends on Google automated evaluation.',
+      },
+    },
+  ];
+
+  const memories: HindsightMemoryItem[] = profile.progression.map((step, idx) => ({
+    id: `mem_${domain.replace(/[^a-zA-Z0-9]/g, '_')}_${idx + 1}`,
+    bank_id: 'seo_hindsight_main',
+    category: step.eventType === 'optimization' ? 'optimization_history' : 'ranking_history',
+    content: `[${step.date}] ${domain} held Rank #${step.position}. ${step.observation} Result: ${step.outcome}`,
+    target_keyword: query,
+    target_domain: domain,
+    timestamp: new Date().toISOString(),
+    relevance_score: 0.95 - idx * 0.05,
+    why_relevant: `Direct historical trajectory milestone for ${domain} on "${query}".`,
+    tags: [step.eventType, `rank_${step.position}`],
+  }));
+
+  return {
+    analysis_id: `analysis_fallback_${Date.now()}`,
+    timestamp: new Date().toISOString(),
+    query,
+    user_request: `Analyze ${domain} for query "${query}"`,
+    target_domain: domain,
+    hindsight_memory_applied: true,
+    provider_used: 'rankmind-client-intelligence',
+    reasoning_context_assembled: {
+      profile_signals: profile.whyStrongSignals,
+      starting_rank: profile.startingRank,
+      current_rank: profile.currentRank,
+    },
+    recalled_memories: memories,
+    memory_impact_analysis: [
+      {
+        recalled_memory_id: memories[0]?.id || 'mem_01',
+        memory_type: 'outcome_attribution',
+        core_learning: profile.relevantMemory.explanation,
+        influence_on_recommendations: 'Suppressed unneeded text padding; prioritized interactive utility.',
+      },
+    ],
+    suppressed_tactics: [
+      'Unstructured 2,500-word text padding (proven 0 rank lift in historical cycle)',
+      'Keyword stuffing in footer tags (ignored by modern search intent models)',
+    ],
+    current_information: {
+      domain,
+      current_rank: currentPos,
+      word_count: profile.wordCount,
+      has_interactive_widget: profile.hasInteractiveWidget,
+      has_video_preview: profile.hasVideoPreview,
+      has_curriculum_table: profile.hasCurriculumTable,
+    },
+    current_competitor_information: items.slice(0, 4).map((it) => ({
+      domain: it.domain,
+      rank: it.rank,
+      title: it.title,
+    })),
+    ai_interpretation_with_memory: {
+      seo_diagnosis: `RankMind Hindsight analysis shows ${domain} began at Rank #${profile.startingRank} and moved to Rank #${profile.currentRank}. ${profile.relevantMemory.explanation}`,
+      intent_fit_assessment: `High alignment with search query "${query}". Practical interactive utility is the primary ranking differentiator.`,
+      main_weaknesses: [
+        {
+          weakness: profile.hasInteractiveWidget ? 'Syllabus depth could be extended' : 'Missing interactive sandbox tools',
+          category: profile.hasInteractiveWidget ? 'content_depth' : 'interactive_ux',
+          severity: 'medium',
+          evidence: profile.relevantMemory.explanation,
+        },
+      ],
+    },
+    context_aware_recommendations: recs,
+    baseline_vs_hindsight_contrast: 'Standard SEO audits recommend bulk word count expansion; Hindsight memory reveals interactive utility and structured schema drove actual historical rank gains.',
   };
 }
