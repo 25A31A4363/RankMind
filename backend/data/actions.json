@@ -1,0 +1,26 @@
+[
+  {
+    "id": "act_001_word_count_fluff",
+    "query": "best python courses for beginners",
+    "target_domain": "learnpythonhub.io",
+    "target_url": "https://learnpythonhub.io/best-python-courses-beginners",
+    "timestamp": "2026-07-01T14:30:00Z",
+    "category": "content_depth",
+    "title": "Expanded Article Length (+1,600 words)",
+    "description": "Added 1,600 words of generic descriptive text covering Python history, installation notes, and broad overview paragraphs.",
+    "hypothesis": "Competitors have high word counts (3,000+ words). Increasing length should signal higher comprehensiveness to Google.",
+    "snapshot_before_id": "snap_000_baseline"
+  },
+  {
+    "id": "act_002_interactive_matrix",
+    "query": "best python courses for beginners",
+    "target_domain": "learnpythonhub.io",
+    "target_url": "https://learnpythonhub.io/best-python-courses-beginners",
+    "timestamp": "2026-08-05T09:15:00Z",
+    "category": "interactive_ux",
+    "title": "Embedded In-Browser Code Runner & Course Comparison Matrix",
+    "description": "Replaced generic text blocks with an interactive Python mini-sandbox widget (run your first 'print' statement) and an interactive filterable matrix comparing price, duration, and project count.",
+    "hypothesis": "Beginner learners reward immediate tactile engagement; interactive tools match Codecademy's user engagement dwell signals.",
+    "snapshot_before_id": "snap_001_post_fluff"
+  }
+]

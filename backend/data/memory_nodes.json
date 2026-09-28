@@ -1,0 +1,36 @@
+[
+  {
+    "id": "mem_001_word_count_ineffective",
+    "query": "best python courses for beginners",
+    "target_domain": "learnpythonhub.io",
+    "action_id": "act_001_word_count_fluff",
+    "action_category": "content_depth",
+    "action_title": "Expanded Article Length (+1,600 words)",
+    "date_applied": "2026-07-01",
+    "date_evaluated": "2026-07-20",
+    "latency_days": 19,
+    "rank_before": 8,
+    "rank_after": 8,
+    "rank_delta": 0,
+    "verdict": "neutral",
+    "confidence_score": 0.92,
+    "agent_distilled_lesson": "Increasing passive word count without structured data or interactive utility produced zero ranking movement in this intent cluster. Beginners search for actionable evaluation, not encyclopedia text."
+  },
+  {
+    "id": "mem_002_interactive_success",
+    "query": "best python courses for beginners",
+    "target_domain": "learnpythonhub.io",
+    "action_id": "act_002_interactive_matrix",
+    "action_category": "interactive_ux",
+    "action_title": "Embedded In-Browser Code Runner & Course Comparison Matrix",
+    "date_applied": "2026-08-05",
+    "date_evaluated": "2026-08-28",
+    "latency_days": 23,
+    "rank_before": 8,
+    "rank_after": 3,
+    "rank_delta": 5,
+    "verdict": "confirmed_positive",
+    "confidence_score": 0.95,
+    "agent_distilled_lesson": "Adding an interactive code widget and structured curriculum comparison table triggered a massive +5 rank surge (#8 \u2192 #3). Tactile engagement and scannable tabular structure strongly aligned with beginner query intent."
+  }
+]

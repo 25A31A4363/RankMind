@@ -1,0 +1,528 @@
+[
+  {
+    "id": "snap_000_baseline",
+    "query": "best python courses for beginners",
+    "timestamp": "2026-06-15T10:00:00Z",
+    "cycle_index": 0,
+    "total_results_evaluated": 10,
+    "items": [
+      {
+        "rank": 1,
+        "url": "https://www.coursera.org/specializations/python",
+        "domain": "coursera.org",
+        "title": "Python for Everybody Specialization | Coursera",
+        "snippet": "Learn to Program and Analyze Data with Python. Develop programs to clean, analyze, and visualize data.",
+        "word_count": 3400,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "Organization"
+        ],
+        "last_updated": "2026-05-20",
+        "readability_score": 82.0,
+        "citation_density": 4.1,
+        "intent_match_score": 95.0
+      },
+      {
+        "rank": 2,
+        "url": "https://www.codecademy.com/learn/learn-python-3",
+        "domain": "codecademy.com",
+        "title": "Learn Python 3 | Codecademy",
+        "snippet": "Learn Python 3 with our interactive, hands-on course. Build real-world projects and earn a certificate.",
+        "word_count": 2200,
+        "has_interactive_widget": true,
+        "has_video_preview": false,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "FAQPage"
+        ],
+        "last_updated": "2026-06-01",
+        "readability_score": 85.0,
+        "citation_density": 3.2,
+        "intent_match_score": 94.0
+      },
+      {
+        "rank": 3,
+        "url": "https://www.freecodecamp.org/news/python-for-beginners-full-course/",
+        "domain": "freecodecamp.org",
+        "title": "Python for Beginners - Full Course | freeCodeCamp.org",
+        "snippet": "This complete Python course will take you from zero programming experience to confident fundamentals.",
+        "word_count": 4800,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": false,
+        "schema_types": [
+          "Article",
+          "VideoObject"
+        ],
+        "last_updated": "2026-04-10",
+        "readability_score": 78.0,
+        "citation_density": 5.0,
+        "intent_match_score": 91.0
+      },
+      {
+        "rank": 4,
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "domain": "udemy.com",
+        "title": "2026 Complete Python Bootcamp From Zero to Hero | Udemy",
+        "snippet": "Learn Python like a Professional! Start from the basics and go all the way to creating your own applications.",
+        "word_count": 2900,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "AggregateRating"
+        ],
+        "last_updated": "2026-06-10",
+        "readability_score": 80.0,
+        "citation_density": 2.8,
+        "intent_match_score": 89.0
+      },
+      {
+        "rank": 5,
+        "url": "https://realpython.com/learning-paths/python-basics/",
+        "domain": "realpython.com",
+        "title": "Python Basics: A Practical Introduction | Real Python",
+        "snippet": "Learn Python step by step with clear explanations, code samples, and guided learning tracks.",
+        "word_count": 4100,
+        "has_interactive_widget": false,
+        "has_video_preview": false,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Article",
+          "BreadcrumbList"
+        ],
+        "last_updated": "2026-05-18",
+        "readability_score": 84.0,
+        "citation_density": 6.2,
+        "intent_match_score": 88.0
+      },
+      {
+        "rank": 6,
+        "url": "https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python",
+        "domain": "edx.org",
+        "title": "CS50: Introduction to Computer Science & Python | edX",
+        "snippet": "An introduction to computer science and programming using Python from Harvard and MIT faculty.",
+        "word_count": 2600,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course"
+        ],
+        "last_updated": "2026-05-01",
+        "readability_score": 76.0,
+        "citation_density": 4.5,
+        "intent_match_score": 87.0
+      },
+      {
+        "rank": 7,
+        "url": "https://www.pluralsight.com/courses/core-python-getting-started",
+        "domain": "pluralsight.com",
+        "title": "Core Python: Getting Started | Pluralsight",
+        "snippet": "Learn core Python syntax, libraries, and tooling designed for software engineers and aspiring data analysts.",
+        "word_count": 2100,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": false,
+        "schema_types": [
+          "Course"
+        ],
+        "last_updated": "2026-03-12",
+        "readability_score": 79.0,
+        "citation_density": 2.1,
+        "intent_match_score": 84.0
+      },
+      {
+        "rank": 8,
+        "url": "https://learnpythonhub.io/best-python-courses-beginners",
+        "domain": "learnpythonhub.io",
+        "title": "Best Python Courses for Beginners in 2026 (Curated Guide)",
+        "snippet": "Our comprehensive comparison of the top Python courses for absolute beginners, evaluated on cost and depth.",
+        "word_count": 2400,
+        "has_interactive_widget": false,
+        "has_video_preview": false,
+        "has_curriculum_table": false,
+        "schema_types": [
+          "Article"
+        ],
+        "last_updated": "2026-04-02",
+        "readability_score": 76.0,
+        "citation_density": 3.0,
+        "intent_match_score": 82.0
+      }
+    ]
+  },
+  {
+    "id": "snap_001_post_fluff",
+    "query": "best python courses for beginners",
+    "timestamp": "2026-07-20T10:00:00Z",
+    "cycle_index": 1,
+    "total_results_evaluated": 10,
+    "items": [
+      {
+        "rank": 1,
+        "url": "https://www.coursera.org/specializations/python",
+        "domain": "coursera.org",
+        "title": "Python for Everybody Specialization | Coursera",
+        "snippet": "Learn to Program and Analyze Data with Python. Develop programs to clean, analyze, and visualize data.",
+        "word_count": 3400,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "Organization"
+        ],
+        "last_updated": "2026-05-20",
+        "readability_score": 82.0,
+        "citation_density": 4.1,
+        "intent_match_score": 95.0
+      },
+      {
+        "rank": 2,
+        "url": "https://www.codecademy.com/learn/learn-python-3",
+        "domain": "codecademy.com",
+        "title": "Learn Python 3 | Codecademy",
+        "snippet": "Learn Python 3 with our interactive, hands-on course. Build real-world projects and earn a certificate.",
+        "word_count": 2200,
+        "has_interactive_widget": true,
+        "has_video_preview": false,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "FAQPage"
+        ],
+        "last_updated": "2026-06-01",
+        "readability_score": 85.0,
+        "citation_density": 3.2,
+        "intent_match_score": 94.0
+      },
+      {
+        "rank": 3,
+        "url": "https://www.freecodecamp.org/news/python-for-beginners-full-course/",
+        "domain": "freecodecamp.org",
+        "title": "Python for Beginners - Full Course | freeCodeCamp.org",
+        "snippet": "This complete Python course will take you from zero programming experience to confident fundamentals.",
+        "word_count": 4800,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": false,
+        "schema_types": [
+          "Article",
+          "VideoObject"
+        ],
+        "last_updated": "2026-04-10",
+        "readability_score": 78.0,
+        "citation_density": 5.0,
+        "intent_match_score": 91.0
+      },
+      {
+        "rank": 4,
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "domain": "udemy.com",
+        "title": "2026 Complete Python Bootcamp From Zero to Hero | Udemy",
+        "snippet": "Learn Python like a Professional! Start from the basics and go all the way to creating your own applications.",
+        "word_count": 2900,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "AggregateRating"
+        ],
+        "last_updated": "2026-06-10",
+        "readability_score": 80.0,
+        "citation_density": 2.8,
+        "intent_match_score": 89.0
+      },
+      {
+        "rank": 5,
+        "url": "https://realpython.com/learning-paths/python-basics/",
+        "domain": "realpython.com",
+        "title": "Python Basics: A Practical Introduction | Real Python",
+        "snippet": "Learn Python step by step with clear explanations, code samples, and guided learning tracks.",
+        "word_count": 4100,
+        "has_interactive_widget": false,
+        "has_video_preview": false,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Article",
+          "BreadcrumbList"
+        ],
+        "last_updated": "2026-05-18",
+        "readability_score": 84.0,
+        "citation_density": 6.2,
+        "intent_match_score": 88.0
+      },
+      {
+        "rank": 6,
+        "url": "https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python",
+        "domain": "edx.org",
+        "title": "CS50: Introduction to Computer Science & Python | edX",
+        "snippet": "An introduction to computer science and programming using Python from Harvard and MIT faculty.",
+        "word_count": 2600,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course"
+        ],
+        "last_updated": "2026-05-01",
+        "readability_score": 76.0,
+        "citation_density": 4.5,
+        "intent_match_score": 87.0
+      },
+      {
+        "rank": 7,
+        "url": "https://www.pluralsight.com/courses/core-python-getting-started",
+        "domain": "pluralsight.com",
+        "title": "Core Python: Getting Started | Pluralsight",
+        "snippet": "Learn core Python syntax, libraries, and tooling designed for software engineers and aspiring data analysts.",
+        "word_count": 2100,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": false,
+        "schema_types": [
+          "Course"
+        ],
+        "last_updated": "2026-03-12",
+        "readability_score": 79.0,
+        "citation_density": 2.1,
+        "intent_match_score": 84.0
+      },
+      {
+        "rank": 8,
+        "url": "https://learnpythonhub.io/best-python-courses-beginners",
+        "domain": "learnpythonhub.io",
+        "title": "Best Python Courses for Beginners in 2026 (Curated Guide)",
+        "snippet": "Our comprehensive comparison of the top Python courses for absolute beginners, evaluated on cost and depth.",
+        "word_count": 4000,
+        "has_interactive_widget": false,
+        "has_video_preview": false,
+        "has_curriculum_table": false,
+        "schema_types": [
+          "Article"
+        ],
+        "last_updated": "2026-07-01",
+        "readability_score": 76.0,
+        "citation_density": 3.0,
+        "intent_match_score": 82.0
+      }
+    ]
+  },
+  {
+    "id": "snap_002_post_interactive",
+    "query": "best python courses for beginners",
+    "timestamp": "2026-08-28T10:00:00Z",
+    "cycle_index": 2,
+    "total_results_evaluated": 10,
+    "items": [
+      {
+        "rank": 1,
+        "url": "https://www.coursera.org/specializations/python",
+        "domain": "coursera.org",
+        "title": "Python for Everybody Specialization | Coursera",
+        "snippet": "Learn to Program and Analyze Data with Python. Develop programs to clean, analyze, and visualize data.",
+        "word_count": 3450,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "Organization"
+        ],
+        "last_updated": "2026-05-20",
+        "readability_score": 82.0,
+        "citation_density": 4.1,
+        "intent_match_score": 95.0
+      },
+      {
+        "rank": 2,
+        "url": "https://www.codecademy.com/learn/learn-python-3",
+        "domain": "codecademy.com",
+        "title": "Learn Python 3 | Codecademy",
+        "snippet": "Learn Python 3 with our interactive, hands-on course. Build real-world projects and earn a certificate.",
+        "word_count": 2250,
+        "has_interactive_widget": true,
+        "has_video_preview": false,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "FAQPage"
+        ],
+        "last_updated": "2026-07-15",
+        "readability_score": 86.0,
+        "citation_density": 3.4,
+        "intent_match_score": 94.0
+      },
+      {
+        "rank": 3,
+        "url": "https://learnpythonhub.io/best-python-courses-beginners",
+        "domain": "learnpythonhub.io",
+        "title": "Best Python Courses for Beginners (Interactive Comparison & Sandbox)",
+        "snippet": "Compare the top Python courses with our live sandbox demo and interactive curriculum matrix.",
+        "word_count": 3600,
+        "has_interactive_widget": true,
+        "has_video_preview": false,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Article",
+          "ItemList"
+        ],
+        "last_updated": "2026-08-05",
+        "readability_score": 83.0,
+        "citation_density": 4.5,
+        "intent_match_score": 93.0
+      },
+      {
+        "rank": 4,
+        "url": "https://www.freecodecamp.org/news/python-for-beginners-full-course/",
+        "domain": "freecodecamp.org",
+        "title": "Python for Beginners - Full Course | freeCodeCamp.org",
+        "snippet": "This complete Python course will take you from zero programming experience to confident fundamentals.",
+        "word_count": 4800,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": false,
+        "schema_types": [
+          "Article",
+          "VideoObject"
+        ],
+        "last_updated": "2026-04-10",
+        "readability_score": 78.0,
+        "citation_density": 5.0,
+        "intent_match_score": 90.0
+      },
+      {
+        "rank": 5,
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "domain": "udemy.com",
+        "title": "2026 Complete Python Bootcamp From Zero to Hero | Udemy",
+        "snippet": "Learn Python like a Professional! Start from the basics and go all the way to creating your own applications.",
+        "word_count": 2950,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "AggregateRating"
+        ],
+        "last_updated": "2026-08-01",
+        "readability_score": 80.0,
+        "citation_density": 2.8,
+        "intent_match_score": 88.0
+      }
+    ]
+  },
+  {
+    "id": "snap_003_current",
+    "query": "best python courses for beginners",
+    "timestamp": "2026-09-27T22:00:00Z",
+    "cycle_index": 3,
+    "total_results_evaluated": 10,
+    "items": [
+      {
+        "rank": 1,
+        "url": "https://www.coursera.org/specializations/python",
+        "domain": "coursera.org",
+        "title": "Python for Everybody Specialization | Coursera",
+        "snippet": "Learn to Program and Analyze Data with Python. Interactive practice projects and accredited university certificates.",
+        "word_count": 3600,
+        "has_interactive_widget": true,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "Organization",
+          "EducationalOccupationalCredential"
+        ],
+        "last_updated": "2026-09-12",
+        "readability_score": 84.0,
+        "citation_density": 4.3,
+        "intent_match_score": 97.0
+      },
+      {
+        "rank": 2,
+        "url": "https://www.codecademy.com/learn/learn-python-3",
+        "domain": "codecademy.com",
+        "title": "Learn Python 3 | Codecademy",
+        "snippet": "Learn Python 3 with our interactive, hands-on course. Build real-world projects and earn a certificate.",
+        "word_count": 2300,
+        "has_interactive_widget": true,
+        "has_video_preview": false,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "FAQPage"
+        ],
+        "last_updated": "2026-09-01",
+        "readability_score": 86.0,
+        "citation_density": 3.4,
+        "intent_match_score": 94.0
+      },
+      {
+        "rank": 3,
+        "url": "https://www.freecodecamp.org/news/python-for-beginners-full-course/",
+        "domain": "freecodecamp.org",
+        "title": "Python for Beginners - Full Course (Video & Certificate) | freeCodeCamp.org",
+        "snippet": "Complete Python beginner video curriculum with interactive chapter markers and verified free certificate.",
+        "word_count": 4900,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Article",
+          "VideoObject",
+          "Course"
+        ],
+        "last_updated": "2026-09-15",
+        "readability_score": 81.0,
+        "citation_density": 5.2,
+        "intent_match_score": 93.0
+      },
+      {
+        "rank": 4,
+        "url": "https://learnpythonhub.io/best-python-courses-beginners",
+        "domain": "learnpythonhub.io",
+        "title": "Best Python Courses for Beginners (Interactive Comparison & Sandbox)",
+        "snippet": "Compare the top Python courses with our live sandbox demo and interactive curriculum matrix.",
+        "word_count": 3650,
+        "has_interactive_widget": true,
+        "has_video_preview": false,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Article",
+          "ItemList"
+        ],
+        "last_updated": "2026-08-05",
+        "readability_score": 83.0,
+        "citation_density": 4.5,
+        "intent_match_score": 91.0
+      },
+      {
+        "rank": 5,
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+        "domain": "udemy.com",
+        "title": "2026 Complete Python Bootcamp From Zero to Hero | Udemy",
+        "snippet": "Learn Python like a Professional! Start from the basics and go all the way to creating your own applications.",
+        "word_count": 2950,
+        "has_interactive_widget": false,
+        "has_video_preview": true,
+        "has_curriculum_table": true,
+        "schema_types": [
+          "Course",
+          "AggregateRating"
+        ],
+        "last_updated": "2026-08-01",
+        "readability_score": 80.0,
+        "citation_density": 2.8,
+        "intent_match_score": 88.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "diff_001_coursera_counter",
+    "query": "best python courses for beginners",
+    "domain": "coursera.org",
+    "cycle_from": 2,
+    "cycle_to": 3,
+    "rank_delta": 0,
+    "changes_detected": [
+      "Added interactive project preview modules",
+      "Added CourseSchema rich snippet with accredited certificates",
+      "Updated H2 headers targeting 'Python courses with certificates for beginners'"
+    ],
+    "feature_shifts": {
+      "has_interactive_widget": true,
+      "has_video_preview": true
+    }
+  }
+]
